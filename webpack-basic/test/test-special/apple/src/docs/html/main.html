@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+	@@include('head.html')
+	
+	<title>메인</title>
+</head>
+<body>
+
+<div id="m_wrap" class="reveal-left-wrap reveal-right-wrap mcom_wrap sm">
+
+	@@include('header.html')
+
+	<div id="m_container" class="reveal-left-contents reveal-right-contents mcom_container">
+		<div class="m_tmpl_wrap" id="sb_wrap">
+
+			@@include('header_special.html')
+
+			<div id="sb_ct">
+				<!-- [D] 메인배너 사이즈 수정불가 : PC와 공통 사용(1020x500 사이즈를 720x440으로 crop) -->
+				<div class="m_tmpl_bnr">
+					<div class="m_tmpl_bnr_img" style="background:#cccccc">
+						<a href="#"><img src="http://placehold.it/720x440/cccccc&text=720x440" alt="배너타이틀" /></a>
+					</div>
+					<div class="m_tmpl_bnr_img" style="background:#dddddd">
+						<a href="#"><img src="http://placehold.it/720x440/dddddd&text=720x440" alt="배너타이틀" /></a>
+					</div>
+				</div>
+				<div class="m_tmpl_tit">
+					<span>NEW ARRIVAL</span>
+				</div>
+				<div class="m_tmpl_goods">
+					<!-- 공통상품유닛 -->
+					<div class="m_sm_lst">
+						<ul class="ty_thmb">
+							<li class="m_clicked">
+								<div class="cm_item">
+									<div class="thmb">
+										<a href="#링크" class="thmb_link">
+											<div class="thmb_inner">
+												<img src="http://item.ssgcdn.com/78/25/43/item/1000011432578_i1_500.jpg" alt="상품 이미지">
+												<span class="ic_badge">
+													<span class="ic_left">
+														<span class="spi i_best">1</span>
+														<span class="spi i_sale"><em class="blind">세일</em>55<em class="per">%</em></span>
+														<span class="spi i_coupon"><em class="blind">쿠폰</em>30<em class="per">%</em></span>
+														<!-- <span class="spi i_plus">2+1</span>
+														<span class="spi i_plus2"><em class="blind">2입 기획</em></span>
+														<span class="spi i_oplus">1+1</span>
+														<span class="spi i_gift"><em class="blind">사은품</em></span>
+														<span class="spi i_addsale"><em class="blind">함께할인</em></span>
+														<span class="spi i_gift2"><em class="blind">상품권</em></span>
+														<span class="spi i_sale2"><em class="blind">파격세일</em></span>
+														<span class="spi i_better"><em class="blind">다다익선</em></span> -->
+													</span>
+													<span class="ic_right">
+														<span class="spi i_prc_sale"><em class="blind">sale</em>9<em class="per">%</em></span><!-- [D] 백화점 세일 -->
+														<span class="spi i_reserve"><em class="blind">이마트 점포예약</em></span>
+														<span class="spi i_reserve_tr"><em class="blind">트레이더스 점포예약</em></span>
+														<!-- <span class="spi i_pickup"><em class="blind">이마트 점포픽업</em></span>
+														<span class="spi i_pickup_tr"><em class="blind">트레이더스 점포픽업</em></span>
+														<span class="spi i_reserve_bojung"><em class="blind">예약배송</em></span>
+														<span class="spi i_reserve_bojung2"><em class="blind">점포택배</em></span>
+														<span class="spi i_holiday"><em class="blind">명절GIFT</em></span>
+														<span class="spi i_holiday2"><em class="blind">명절GIFT 업체상품</em></span> -->
+													</span>
+												</span>
+												<!-- <span class="soldout_new">
+													<strong class="tt1"><span class="blind">일시품절</span></strong>
+												</span> -->
+											</div>
+										</a>
+										<!-- <span class="clip_wrap clip_wrap_item_unit clip_red"><a href="#" class="spi clip_btn" onclick="alert('클립')"><span class="blind">클립</span></a></span> -->
+										<!-- [D] 클립하였을 경우 on클래스 추가 -->
+										<span class="cm_clip cm_clip_item on"><a href="#" class="sp_ccp sel_clip"><span class="blind">클립</span></a></span>
+										<span class="clip_wish"><a href="#" class="spi btn_wish" onclick="alert('클립')"><span class="blind">위시클립</span></a></span><!-- [D] 유플러스인 경우만 노출 -->
+									</div>
+									<div class="tx_thmb">
+										<a href="#링크" class="tx_thmb_link">
+											<div class="tx_thmb_inner">
+												<div class="mall mall_6001"><span class="mall_tx">emart mall</span></div>
+												<!-- <div class="mall mall_6002"><span class="mall_tx">traders</span></div>
+												<div class="mall mall_6003"><span class="mall_tx">boons</span></div> -->
+												<div class="tit">
+													<span class="spi i_prc_sale"><em class="blind">sale</em>9<em class="per">%</em></span><!-- [D] 백화점 세일 -->
+													<span class="spi i_em_best">1</span><!-- [D] 이몰 베스트 -->
+													<span class="goods_brand">[에고이스트]</span>
+													<span class="goods_tit">프린트 쉬폰 티어드 스탠카라 원피스 핑크(ED2WO365)프린트 쉬폰 티어드 스탠카라 원피스 핑크(ED2WO365)</span>
+												</div>
+												<div class="pricewrap">
+													<div class="old_price">
+														<del><span class="blind">정상가격</span><em class="ssg_price">10,236,800</em><span class="ssg_tx">원</span></del>
+														<!-- <span class="spi i_coupon"><em class="blind">쿠폰</em>30<em class="per">%</em></span> -->
+														<span class="spi i_sale"><em class="blind">세일</em>55<em class="per">%</em></span>
+													</div>
+													<div class="new_price">
+														<span class="blind">판매가격</span>
+														<em class="ssg_price">10,236,800</em><span class="ssg_tx">원</span>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="cart_wrap">
+										<div class="cart_rate"><!-- [D] 이몰인 경우만 노출 -->
+											<label>1</label>
+											<select title="수량선택">
+												<option selected="selected">1</option>
+												<option>12</option>
+												<option>3</option>
+											</select>
+										</div>
+										<button class="spi btn_cart" onclick="alert('장바구니 담기')"><span class="blind">장바구니 담기</span></button>
+									</div>
+								</div>					
+								<div class="goods_benefit">
+									<div class="mall mall_6001"><span class="mall_tx">emart mall</span></div>
+									<!-- <div class="mall mall_6002"><span class="mall_tx">traders</span></div>
+									<div class="mall mall_6003"><span class="mall_tx">boons</span></div> -->
+									<div class="benefit_lst">
+										<span class="bene_plus">N+1</span>
+										<span class="bene_oplus">1+1</span>
+										<span class="bene_gift">사은품</span>
+										<span class="bene_coupon">쿠폰</span>
+										<span class="bene_better">다다익선</span>
+										<span class="bene_spoint">포인트</span>
+										<span class="bene_smoney">S-머니</span>
+										<span class="bene_dmdc">청구할인</span>
+										<span class="bene_noint">무이자</span>
+										<span class="bene_free">무료배송</span>
+										<span class="bene_hp">알뜰폰</span>
+										<span class="bene_carddc">카드할인</span>
+										<span class="bene_sale">세일</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="cm_item">
+									<div class="thmb">
+										<a href="#링크" class="thmb_link">
+											<div class="thmb_inner">
+												<img src="http://item.ssgcdn.com/78/25/43/item/1000011432578_i1_500.jpg" alt="상품 이미지">
+												<span class="ic_badge">
+													<span class="ic_left">
+														<span class="spi i_best">2</span>
+														<span class="spi i_plus">2+1</span>
+														<span class="spi i_plus2"><em class="blind">2입 기획</em></span>
+														<span class="spi i_oplus">1+1</span>
+													</span>
+													<span class="ic_right">
+														<span class="spi i_pickup"><em class="blind">이마트 점포픽업</em></span>
+														<span class="spi i_pickup_tr"><em class="blind">트레이더스 점포픽업</em></span>
+													</span>
+												</span>
+												<span class="soldout_new">
+													<strong class="tt1"><span class="blind">일시품절</span></strong>
+												</span>
+											</div>
+										</a>
+										<!-- <span class="clip_wrap clip_wrap_item_unit clip_yellow"><a href="#" class="spi clip_btn" onclick="alert('클립')"><span class="blind">클립</span></a></span> -->
+										<!-- [D] 클립하였을 경우 on클래스 추가 -->
+										<span class="cm_clip cm_clip_item"><a href="#" class="sp_ccp sel_clip"><span class="blind">클립</span></a></span>
+										<span class="clip_wish"><a href="#" class="spi btn_wish" onclick="alert('클립')"><span class="blind">위시클립</span></a></span><!-- [D] 유플러스인 경우만 노출 -->
+									</div>
+									<div class="tx_thmb">
+										<a href="#링크" class="tx_thmb_link">
+											<div class="tx_thmb_inner">
+												<div class="mall mall_6004"><span class="mall_tx">shinsegae mall</span></div>
+												<div class="tit">
+													<!-- <span class="spi i_prc_sale"><em class="blind">sale</em>9<em class="per">%</em></span>[D] 백화점 세일 -->
+													<span class="spi i_em_best">2</span><!-- [D] 이몰 베스트 -->
+													<span class="goods_brand">[에고이스트]</span>
+													<span class="goods_tit">프린트 쉬폰 티어드 스탠카라 원피스 핑크(ED2WO365)프린트 쉬폰 티어드 스탠카라 원피스 핑크(ED2WO365)</span>
+												</div>
+												<div class="pricewrap">
+													<div class="old_price">
+														<del><span class="blind">정상가격</span><em class="ssg_price">10,236,800</em><span class="ssg_tx">원</span></del>
+														<span class="spi i_coupon"><em class="blind">쿠폰</em>30<em class="per">%</em></span>
+													</div>
+													<div class="new_price">
+														<span class="blind">판매가격</span>
+														<em class="ssg_price">10,236,800</em><span class="ssg_tx">원</span>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="cart_wrap cart_soldout">
+										<div class="cart_rate"><!-- [D] 이몰인 경우만 노출 -->
+											<label>1</label>
+											<select title="수량선택" disabled="disabled">
+												<option selected="selected">1</option>
+												<option>12</option>
+												<option>3</option>
+											</select>
+										</div>
+										<button class="spi btn_cart" onclick="alert('일시품절')"><span class="blind">일시품절</span></button>
+									</div>
+								</div>
+								<div class="goods_benefit">
+									<div class="mall mall_6004"><span class="mall_tx">shinsegae mall</span></div>
+									<div class="benefit_lst">
+										<!-- <span class="bene_plus">N+1</span>
+										<span class="bene_oplus">1+1</span>
+										<span class="bene_gift">사은품</span>
+										<span class="bene_coupon">쿠폰</span>
+										<span class="bene_better">다다익선</span>
+										<span class="bene_spoint">포인트</span>
+										<span class="bene_smoney">S-머니</span> -->
+										<span class="bene_dmdc">청구할인</span>
+										<span class="bene_noint">무이자</span>
+										<span class="bene_free">무료배송</span>
+										<span class="bene_hp">알뜰폰</span>
+										<span class="bene_carddc">카드할인</span>
+										<span class="bene_sale">세일</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="cm_item">
+									<div class="thmb">
+										<a href="#링크" class="thmb_link">
+											<div class="thmb_inner">
+												<img src="http://item.ssgcdn.com/78/25/43/item/1000011432578_i1_500.jpg" alt="상품 이미지">
+												<span class="ic_badge">
+													<span class="ic_left">
+														<span class="spi i_gift"><em class="blind">사은품</em></span>
+														<span class="spi i_addsale"><em class="blind">함께할인</em></span>
+														<span class="spi i_gift2"><em class="blind">상품권</em></span>
+													</span>
+													<span class="ic_right">
+														<span class="spi i_prc_sale"><em class="blind">sale</em>9<em class="per">%</em></span><!-- [D] 백화점 세일 -->
+														<span class="spi i_reserve_bojung"><em class="blind">예약배송</em></span>
+														<span class="spi i_reserve_bojung2"><em class="blind">점포택배</em></span>
+													</span>
+												</span>
+												<!-- <span class="soldout_new">
+													<strong class="tt1"><span class="blind">일시품절</span></strong>
+												</span> -->
+											</div>
+										</a>
+										<!-- <span class="clip_wrap clip_wrap_item_unit"><a href="#" class="spi clip_btn" onclick="alert('클립')"><span class="blind">클립</span></a></span> -->
+										<!-- [D] 클립하였을 경우 on클래스 추가 -->
+										<span class="cm_clip cm_clip_item"><a href="#" class="sp_ccp sel_clip"><span class="blind">클립</span></a></span>
+										<span class="clip_wish"><a href="#" class="spi btn_wish" onclick="alert('클립')"><span class="blind">위시클립</span></a></span><!-- [D] 유플러스인 경우만 노출 -->
+									</div>
+									<div class="tx_thmb">
+										<a href="#링크" class="tx_thmb_link">
+											<div class="tx_thmb_inner">
+												<div class="mall mall_6001"><span class="mall_tx">emart mall</span></div>
+												<div class="tit">
+													<span class="spi i_prc_sale"><em class="blind">sale</em>30<em class="per">%</em></span><!-- [D] 백화점 세일 -->
+													<span class="goods_brand">[에고이스트]</span>
+													<span class="goods_tit">프린트 쉬폰 티어드 스탠카라 원피스 핑크(ED2WO365)프린트 쉬폰 티어드 스탠카라 원피스 핑크(ED2WO365)</span>
+												</div>
+												<div class="pricewrap">
+													<div class="old_price"><!-- [D] 정상가 없을시에도 old_price 유지 삭제하면 높이값 달라짐 -->
+														<!-- <del><span class="blind">정상가격</span><em class="ssg_price">10,236,800</em><span class="ssg_tx">원</span></del>
+														<span class="spi i_coupon"><em class="blind">쿠폰</em>30<em class="per">%</em></span>
+														<span class="spi i_sale"><em class="blind">세일</em>55<em class="per">%</em></span> -->
+													</div>
+													<div class="new_price">
+														<span class="blind">판매가격</span>
+														<em class="ssg_price">10,236,800</em><span class="ssg_tx">원</span>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="cart_wrap">
+										<div class="cart_rate"><!-- [D] 이몰인 경우만 노출 -->
+											<label>1</label>
+											<select title="수량선택">
+												<option selected="selected">1</option>
+												<option>12</option>
+												<option>3</option>
+											</select>
+										</div>
+										<button class="spi btn_cart" onclick="alert('장바구니 담기')"><span class="blind">장바구니 담기</span></button>
+									</div>
+								</div>
+								<div class="goods_benefit">
+									<div class="mall mall_6001"><span class="mall_tx">emart mall</span></div>
+									<div class="benefit_lst">
+										<span class="bene_plus">N+1</span>
+										<span class="bene_oplus">1+1</span>
+										<span class="bene_gift">사은품</span>
+										<!-- <span class="bene_coupon">쿠폰</span>
+										<span class="bene_better">다다익선</span>
+										<span class="bene_spoint">포인트</span>
+										<span class="bene_smoney">S-머니</span>
+										<span class="bene_dmdc">청구할인</span>
+										<span class="bene_noint">무이자</span>
+										<span class="bene_free">무료배송</span>
+										<span class="bene_hp">알뜰폰</span>
+										<span class="bene_carddc">카드할인</span>
+										<span class="bene_sale">세일</span> -->
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="cm_item">
+									<div class="thmb">
+										<a href="#링크" class="thmb_link">
+											<div class="thmb_inner">
+												<img src="http://item.ssgcdn.com/78/25/43/item/1000011432578_i1_500.jpg" alt="상품 이미지">
+												<span class="ic_badge">
+													<span class="ic_left">
+														<span class="spi i_sale2"><em class="blind">파격세일</em></span>
+														<span class="spi i_better"><em class="blind">다다익선</em></span>
+													</span>
+													<span class="ic_right">
+														<span class="spi i_holiday"><em class="blind">명절GIFT</em></span>
+														<span class="spi i_holiday2"><em class="blind">명절GIFT 업체상품</em></span>
+													</span>
+												</span>
+												<!-- <span class="soldout_new">
+													<strong class="tt1"><span class="blind">일시품절</span></strong>
+												</span> -->
+											</div>
+										</a>
+										<!-- <span class="clip_wrap clip_wrap_item_unit"><a href="#" class="spi clip_btn" onclick="alert('클립')"><span class="blind">클립</span></a></span> -->
+										<!-- [D] 클립하였을 경우 on클래스 추가 -->
+										<span class="cm_clip cm_clip_item"><a href="#" class="sp_ccp sel_clip"><span class="blind">클립</span></a></span>
+										<span class="clip_wish"><a href="#" class="spi btn_wish" onclick="alert('클립')"><span class="blind">위시클립</span></a></span><!-- [D] 유플러스인 경우만 노출 -->
+									</div>
+									<div class="tx_thmb">
+										<a href="#링크" class="tx_thmb_link">
+											<div class="tx_thmb_inner">
+												<div class="mall mall_6009"><span class="mall_tx">shinsegae <em>강남점</em></span> <span class="spi i_magicpick"><span class="blind">매직픽업</span></span></div>
+												<div class="tit">
+													<!-- <span class="spi i_prc_sale"><em class="blind">sale</em>9<em class="per">%</em></span>[D] 백화점 세일 -->
+													<span class="goods_brand">[에고이스트]</span>
+													<span class="goods_tit">프린트 쉬폰 티어드 스탠카라 원피스 핑크(ED2WO365)프린트 쉬폰 티어드 스탠카라 원피스 핑크(ED2WO365)</span>
+												</div>
+												<div class="pricewrap">
+													<div class="old_price">
+														<del><span class="blind">정상가격</span><em class="ssg_price">10,236,800</em><span class="ssg_tx">원</span></del>
+														<span class="spi i_sale"><em class="blind">세일</em>55<em class="per">%</em></span>
+													</div>
+													<div class="new_price">
+														<span class="blind">판매가격</span>
+														<em class="ssg_price">10,236,800</em><span class="ssg_tx">원</span>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="cart_wrap">
+										<div class="cart_rate"><!-- [D] 이몰인 경우만 노출 -->
+											<label>1</label>
+											<select title="수량선택">
+												<option selected="selected">1</option>
+												<option>12</option>
+												<option>3</option>
+											</select>
+										</div>
+										<button class="spi btn_cart" onclick="alert('장바구니 담기')" disabled="disabled"><span class="blind">장바구니 담기</span></button>
+									</div>
+								</div>
+								<div class="goods_benefit">
+									<div class="mall mall_6009"><span class="mall_tx">shinsegae <em>강남점</em></span> <span class="spi i_magicpick"><span class="blind">매직픽업</span></span></div>
+									<div class="benefit_lst">
+										<span class="bene_plus">N+1</span>
+										<span class="bene_oplus">1+1</span>
+										<span class="bene_gift">사은품</span>
+										<!-- <span class="bene_coupon">쿠폰</span>
+										<span class="bene_better">다다익선</span>
+										<span class="bene_spoint">포인트</span>
+										<span class="bene_smoney">S-머니</span>
+										<span class="bene_dmdc">청구할인</span>
+										<span class="bene_noint">무이자</span>
+										<span class="bene_free">무료배송</span>
+										<span class="bene_hp">알뜰폰</span>
+										<span class="bene_carddc">카드할인</span>
+										<span class="bene_sale">세일</span> -->
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- //공통상품유닛 -->
+					
+					<div class="m_tmpl_more">
+						<a href="#">상품 더보기</a>
+					</div>
+				</div>
+				<!-- [D] 서브배너 사이즈 수정불가 : PC와 공통 사용(720x300) -->
+				<div class="m_tmpl_bnr">
+					<div class="m_tmpl_bnr_img" style="background:#cccccc">
+						<a href="#"><img src="http://placehold.it/720x300/cccccc&text=720x300" alt="배너타이틀" /></a>
+					</div>
+					<div class="m_tmpl_bnr_img" style="background:#dddddd">
+						<a href="#"><img src="http://placehold.it/720x300/dddddd&text=720x300" alt="배너타이틀" /></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+@@include('js.html')
+
+</body>
+</html>

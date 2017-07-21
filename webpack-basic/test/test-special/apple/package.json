@@ -1,0 +1,42 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "grunt template 테스트 프로젝트",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kschoi/template.git"
+  },
+  "author": "kyungsun choi",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kschoi/template/issues"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-csslint": "^0.5.0",
+    "grunt-contrib-cssmin": "~1.0.2",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-imagemin": "~1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-contrib-connect": "~1.0.2",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-uglify": "~2.0.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-csscomb": "~3.1.1",
+    "grunt-htmlhint": "~0.9.13",
+    "grunt-newer": "~1.2.0",
+    "grunt-concurrent": "~2.3.1",
+    "grunt-autoprefixer": "~3.0.4",
+    "time-grunt": "~1.4.0",
+    "jit-grunt": "~0.10.0",
+    "jshint-stylish": "~2.2.1",
+    "grunt-include-replace": "~5.0.0",
+    "grunt-jsbeautifier": "~0.2.13",
+    "grunt-sass": "~1.2.1"
+  }
+}

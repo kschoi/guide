@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* logo */
+.m_tmpl_logo h1.h_img{height:55px}
+.m_tmpl_logo h1.h_img:before{display:inline-block;overflow:hidden;width:1px;height:55px;margin-right:-1px;vertical-align:middle;content:''}
+.m_tmpl_logo h1.h_img img{height:22px;vertical-align:middle}
+
+/* nav - toggle */
+.m_tmpl_gnb .sp_special{display:inline-block;overflow:hidden;background:url(../img/sp_nav_toggle.png) no-repeat;background-size:50px 50px;text-indent:-999em;vertical-align:top}
+.m_tmpl_gnb .sb_btn_cate3{position:absolute;left:0;top:0;width:52px;height:55px}
+.m_tmpl_gnb .sb_btn_cate3 .ico_category{position:absolute;top:50%;left:50%;width:17px;height:12px;margin:-6px 0 0 -8px}
+.m_tmpl_gnb .sb_btn_cate3.on .ico_category{height:16px;background-position:-21px 0}
+.m_tmpl_gnb .sb_nav_ty3{display:none;position:absolute;top:100%;left:0;right:0;z-index:10;padding:0 20px;border-bottom:1px solid #000;background:#f3f3f3}
+.m_tmpl_gnb .sb_navsub_w li{border-top:1px solid #d5d5d5}
+.m_tmpl_gnb .sb_navsub_w li:first-child{border-top:0}
+.m_tmpl_gnb .sb_navsub_w li:last-child .sb_navsubin{border-bottom:0}
+.m_tmpl_gnb .sb_navsub_w .sb_catebox button{position:relative;width:100%;height:55px;line-height:100%;border:0;text-align:center;color:#8e8e8e}
+.m_tmpl_gnb .sb_navsub_w .sb_catebox button span{height:auto}
+.m_tmpl_gnb .sb_navsub_w .sb_navsubin{display:none;position:relative;margin-bottom:-1px;border:1px solid #767676;border-left:0;border-right:0}
+.m_tmpl_gnb .sb_navsub_w .sb_navsubin li{border-top:0}
+.m_tmpl_gnb .sb_navsub_w .sb_navsubin li .t_view{display:block;height:45px;line-height:45px;font-size:13px;color:#000}
+#sb_ct{position:relative}
+#sb_ct.on:after{position:absolute;top:0;right:0;left:0;bottom:0;z-index:2090;width:100%;height:100%;background:rgba(0,0,0,0.5);content:''}
